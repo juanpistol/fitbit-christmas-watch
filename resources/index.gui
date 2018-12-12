@@ -1,0 +1,31 @@
+<svg class="background">
+  <image class="backgroundImage" href="poinsettia-half-wreath.png" />
+  <image class="topLeftFlower" href="poinsettia.png" />
+  <image class="bottomLeftFlower" href="holly.png" />
+  
+  <defs>
+    <symbol id="line">
+      <line class="white" x1="20" y1="0" x2="100%-20" y2="0" stroke-width="1" />
+    </symbol>
+  </defs>
+  
+  <text id="date" class="white" />
+  
+  <use href="#line" x="0" y="50%-60" />
+      
+  <text class="timeLine white" id="time" />
+  <text class="timeLine white" id="amPm" />
+  
+  <use href="#line" x="0" y="50%+40" />  
+  
+  <image class="icon statLine" id="heartIcon" href="heart.png" />
+  <text class="statLine white" id="heart" />
+  
+  <image class="icon statLine" id="stepsIcon" href="steps.png" />
+  <text class="statLine white" id="steps" />
+  
+  <g transform="translate(0,-100%)">
+    <animateTransform attributeType="translate" from="0, -100%" to="0, 0" begin="load" repeatCount="indefinite" dur="30" />
+    <image class="falling" href="snow.png" id="snow" />
+  </g>
+</svg>

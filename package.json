@@ -1,0 +1,25 @@
+{
+  "fitbit": {
+    "appUUID": "00a71288-2283-4de3-b1dc-0485f828530f",
+    "appType": "clockface",
+    "appDisplayName": "Christmas Watchface",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Christmas Watchface"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~1.0.0"
+  }
+}

@@ -1,0 +1,94 @@
+.background {
+  viewport-fill: black;
+}
+
+.backgroundImage{
+  width:100%;
+  height:100%;
+  x:50;
+  y:50;
+}
+
+.topLeftFlower{
+  x:-20;
+  y:-20;
+  width:25%;
+  height:25%;
+}
+.bottomLeftFlower{
+  x:20;
+  y:80%;
+  width:25%;
+  height:25%;
+}
+
+#snow{
+  x:0;
+  y:0;
+  width:100%;
+  height:200%;
+}
+
+.timeLine{
+  y: 50%+25;
+}
+.statLine{
+  y: 50%+67;
+  font-size:25;
+}
+image.statLine{
+  y: 50%+50;
+}
+.white{
+  fill:white;
+}
+
+#time{
+  text-anchor: end;
+  x: 100%-80;
+  font-family: SevilleSharp-Book;
+  text-length: 100;
+  font-size: 100;
+}
+
+#amPm{
+  text-anchor: start;
+  x: 100%-70;
+  font-family: SevilleSharp-Bold;
+  text-length:2;
+  font-size:30;
+}
+
+#date{
+  x:50%;
+  y:50%-70;
+  text-anchor:middle;
+  text-length:15;
+  font-size:35;
+}
+
+.icon{
+  width:20;
+  height:20;
+}
+
+#heartIcon{
+  x:50;
+}
+
+#stepsIcon{
+  x:170;
+}
+
+
+#heart{
+  text-anchor:start;
+  text-length:5;
+  x:80;
+}
+
+#steps{
+  text-anchor:start;
+  text-length:10;
+  x:200;
+}
